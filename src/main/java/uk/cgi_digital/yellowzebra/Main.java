@@ -6,11 +6,11 @@ public class Main {
 
         int c;
         c = 10;
-        int d = 20;
+        int d = Integer.MAX_VALUE;
 
 
         if (true) {
-            System.out.println("I am alive " + d);
+            System.out.println("I am alive " + (d + 1));
         }
 
         System.err.println("Completed.");
